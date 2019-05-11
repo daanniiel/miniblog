@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
@@ -16,5 +18,14 @@
                 <context:component-scan base-package="com.wwsis"/>
                 <context:annotation-config />
 
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="org.hsqldb.jdbcDriver" />
+        <property name="url" value="jdbc:hsqldb:mem:." />
+        <property name="username" value="SA" />
+        <property name="password" value="" />
+    </bean>
 
-</beans>
+
+        </beans>
+
