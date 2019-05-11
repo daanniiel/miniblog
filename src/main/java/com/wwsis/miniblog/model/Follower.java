@@ -2,8 +2,10 @@ package com.wwsis.miniblog.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="follower")
 public class Follower {
     @Column(name="follower_id")
    private int follower_id;
