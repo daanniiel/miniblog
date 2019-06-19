@@ -1,1 +1,5 @@
+com/wwsis/miniblog/model/User.class
+com/wwsis/App.class
+com/wwsis/miniblog/model/Message.class
 test.class
+com/wwsis/miniblog/model/Follower.class
