@@ -9,5 +9,5 @@ public interface FollowerDao {
     public void unfollow(User follower, User followee);
 
     public boolean isFollowing(User follower, User followee);
-    
+
 }
