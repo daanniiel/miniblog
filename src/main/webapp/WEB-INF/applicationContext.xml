@@ -51,6 +51,10 @@
         <property name="entityManagerFactory" ref="entityManagerFactoryBean" />
     </bean>
 
+    <bean id = "MessageDao" class = "com.wwsis.miniblog.dao.impl.MessageDaoImpl"/>
+    <bean id = "UserDao" class = "com.wwsis.miniblog.dao.impl.UserDaoImpl"/>
+    <bean id = "FollowerDao" class="com.wwsis.miniblog.dao.impl.UserDaoImpl"/>
+
 
         </beans>
 

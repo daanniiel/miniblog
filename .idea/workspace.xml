@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2598247a-1cc6-48bd-9a70-bc5bd89edc00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/dao/FollowerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/dao/FollowerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/create_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/create_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/insert_data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mini-blog-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mini-blog-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.wwsis.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.wwsis.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.wwsis.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.wwsis.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +19,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/dao/impl/MessageDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sql/insert_data.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="63" />
+            <state relative-caret-position="165">
+              <caret line="11" column="110" lean-forward="true" selection-start-line="11" selection-start-column="110" selection-end-line="11" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -108,15 +109,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wwsis/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/model/Follower.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -155,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wwsis/ConnectDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/rootApplicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/model/Follower.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/dao/MessageDao.java" />
@@ -166,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/sql/insert_data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/dao/impl/FollowerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/dao/impl/MessageDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -179,7 +171,7 @@
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="53" />
     <option name="y" value="25" />
     <option name="width" value="1867" />
@@ -239,37 +231,6 @@
               <item name="miniblog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wwsis" type="462c0819:PsiDirectoryNode" />
-              <item name="miniblog" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miniblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wwsis" type="462c0819:PsiDirectoryNode" />
-              <item name="miniblog" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miniblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wwsis" type="462c0819:PsiDirectoryNode" />
-              <item name="miniblog" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miniblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,6 +240,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miniblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miniblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miniblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miniblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miniblog" type="b2602c69:ProjectViewProjectNode" />
@@ -312,7 +288,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561134707156" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561135350660" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring/spring-hibernate-customer-tracker-with-maven" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -391,12 +367,12 @@
       <workItem from="1560879732935" duration="9445000" />
       <workItem from="1561023194371" duration="1644000" />
       <workItem from="1561038615987" duration="1390000" />
-      <workItem from="1561044757268" duration="7516000" />
+      <workItem from="1561044757268" duration="8117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34109000" />
+    <option name="totallyTimeSpent" value="34710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="25" width="1867" height="1055" extended-state="6" />
@@ -466,13 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -548,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/insert_data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wwsis/miniblog/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -582,6 +544,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/insert_data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="110" lean-forward="true" selection-start-line="11" selection-start-column="110" selection-end-line="11" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>
