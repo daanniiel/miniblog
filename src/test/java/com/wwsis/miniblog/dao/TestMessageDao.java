@@ -17,7 +17,7 @@ import com.wwsis.miniblog.model.Message;
 @ContextConfiguration(locations={"classpath:applicationContext-test.xml"})
 @Transactional
 @Rollback(true)
-public class TestWpisDao {
+public class TestMessageDao {
     @Autowired
     MessageDao wpisDao;
     @Autowired
@@ -25,7 +25,5 @@ public class TestWpisDao {
 
     @Test
     public void xxx() {
-. . .
     }
-. . .
 }

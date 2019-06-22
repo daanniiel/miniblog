@@ -30,8 +30,5 @@ class TestFollowerDao {
     }
     @Test
     public void testAddFollower() {
-...
     }
-. . .
-        . . .
 }
