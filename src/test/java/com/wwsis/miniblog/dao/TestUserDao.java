@@ -20,7 +20,7 @@ import com.wwsis.miniblog.model.User;
 public class TestUserDao {
     @Autowired
     UserDao userDAO;
-    User user;
+    User user = new User();
     @Before
     public void setUp() {
         user.setEmail("grzegorz@wp.pl");
