@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 @ContextConfiguration(locations={"classpath:applicationContext-test.xml"})
 @Transactional
 @Rollback(true)
-class TestFollowerDao {
+public class TestFollowerDao {
     @Autowired
     FollowerDao followerDAO;
     @Autowired
@@ -30,8 +30,9 @@ class TestFollowerDao {
     }
     @Test
     public void testAddFollower() {
-...
+//...
     }
-. . .
-        . . .
+//. . .
+  //      . . .
 }
+

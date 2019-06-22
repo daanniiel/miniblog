@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.wwsis.miniblog.dao.TestFollowerDao
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.56 s <<< FAILURE! - in com.wwsis.miniblog.dao.TestFollowerDao
+testAddFollower(com.wwsis.miniblog.dao.TestFollowerDao)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactoryBean' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.wwsis.miniblog.model.Follower
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.wwsis.miniblog.model.Follower
+

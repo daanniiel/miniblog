@@ -1,1 +1,3 @@
-com/wwsis/AppTest.class
+com/wwsis/miniblog/dao/TestFollowerDao.class
+com/wwsis/miniblog/dao/TestUserDao.class
+com/wwsis/miniblog/dao/TestMessageDao.class

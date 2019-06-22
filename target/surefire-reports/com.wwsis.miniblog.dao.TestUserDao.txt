@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.wwsis.miniblog.dao.TestUserDao
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.653 s <<< FAILURE! - in com.wwsis.miniblog.dao.TestUserDao
+userPasswordCheck(com.wwsis.miniblog.dao.TestUserDao)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactoryBean' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.wwsis.miniblog.model.Follower
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.wwsis.miniblog.model.Follower
+
+userNameCheck(com.wwsis.miniblog.dao.TestUserDao)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactoryBean' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.wwsis.miniblog.model.Follower
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.wwsis.miniblog.model.Follower
+
+userEmailCheck(com.wwsis.miniblog.dao.TestUserDao)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactoryBean' defined in class path resource [applicationContext-test.xml]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.wwsis.miniblog.model.Follower
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.wwsis.miniblog.model.Follower
+
