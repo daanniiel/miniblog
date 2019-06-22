@@ -1,6 +1,8 @@
 package com.wwsis.miniblog.dao;
 
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,16 +20,31 @@ import com.wwsis.miniblog.model.User;
 public class TestUserDao {
     @Autowired
     UserDao userDAO;
-    User newUser;
+    User user;
     @Before
     public void setUp() {
-...
+        user.setEmail("grzegorz@wp.pl");
+        user.setPassword("test1234");
+        user.setUsername("grzegorz");
+        userDAO.addUser(user);
+
     }
     @Test
-    public void xxx() {
-...
+    public void userNameCheck() {
+        String name = "grzegorz";
+        Assert.assertTrue(name.equals(user.getUsername()));
+    }
+
+    @Test
+    public void userEmailCheck(){
+        String email = "grzegorz@wp.pl";
+        Assert.assertTrue(email.equals(user.getEmail()));
+    }
+
+    @Test
+    public void userPasswordCheck(){
+        Assert.assertNotNull(user.getPassword());
     }
 
 }
 
-ZADANIE
