@@ -1,6 +1,7 @@
 package com.wwsis.miniblog.dao.impl;
 
 import com.wwsis.miniblog.dao.FollowerDao;
+import com.wwsis.miniblog.model.Follower;
 import com.wwsis.miniblog.model.User;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -17,11 +18,12 @@ public class FollowerDaoImpl implements FollowerDao {
     @Override
     public void follow(User follower, User followee) {
 
-        Query query = entityManager.createQuery("INSERT INTO Follower(follower_id, followee_id) VALUES (:follower_id,:followee_id)");
-        query.setParameter("follower_id",follower.getUser_id());
-        query.setParameter("followee_id",followee.getUser_id());
+        Follower follower1 = new Follower();
+        follower1.setFollower_id(follower.getUser_id());
+        follower1.setFollowee_id(followee.getUser_id());
 
-        query.executeUpdate();
+        entityManager.persist(follower1);
+
 
     }
 

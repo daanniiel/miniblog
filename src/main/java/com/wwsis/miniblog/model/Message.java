@@ -1,9 +1,6 @@
 package com.wwsis.miniblog.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
@@ -13,6 +10,7 @@ public class Message {
     private String content;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="post_id")
     private int post_id;
     

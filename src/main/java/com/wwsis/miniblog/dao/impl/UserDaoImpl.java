@@ -27,7 +27,19 @@ public class UserDaoImpl implements UserDao {
     @Override
     public void addUser(User user) {
 
-        entityManager.persist(user);
+      entityManager.persist(user);
+  //     entityManager.flush();
+//        entityManager.refresh(user);
+
+
+
+//        Query query = entityManager.createNativeQuery("INSERT INTO User(email, username, password) VALUES (:email,:username,:password)");
+//        query.setParameter("email",user.getEmail());
+//        query.setParameter("username",user.getUsername());
+//        query.setParameter("password",user.getPassword());
+//
+//        query.executeUpdate();
+
 
     }
 }

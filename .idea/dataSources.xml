@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="jdbc:hsqldb:mem:." uuid="d1a4af98-7f1d-409a-9514-bc36f5c68faf">
-      <driver-ref>hsqldb.local</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
-      <jdbc-url>jdbc:hsqldb:file:jdbc:hsqldb:mem:./testdb</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="jdbc:hsqldb:file:jdbc:hsqldb:hsql://localhost/testdb/" uuid="dc2ce6ad-8e14-4909-9dbc-8614d9a2b742">
+    <data-source source="LOCAL" name="jdbc:hsqldb:file:jdbc:hsqldb:hsql://localhost/testdb/" uuid="54b83d22-7738-4535-917e-cdce31e4aa07">
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
       <jdbc-url>jdbc:hsqldb:file:jdbc:hsqldb:hsql://localhost/testdb/</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc:hsqldb:file:/home/user/Downloads/hsqldb-2.4.1/hsqldb/hsqldb/" uuid="ed045ac2-845a-49ac-9d95-6a275423dd06">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$USER_HOME$/Downloads/hsqldb-2.4.1/hsqldb/hsqldb/</jdbc-url>
     </data-source>
   </component>
 </project>

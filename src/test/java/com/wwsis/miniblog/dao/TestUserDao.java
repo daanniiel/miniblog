@@ -25,26 +25,18 @@ public class TestUserDao {
     public void setUp() {
         user.setEmail("grzegorz@wp.pl");
         user.setPassword("test1234");
-        user.setUsername("grzegorz");
+        user.setUsername("grzegorz8");
+
         userDAO.addUser(user);
 
     }
     @Test
-    public void userNameCheck() {
-        String name = "grzegorz";
-        Assert.assertTrue(name.equals(user.getUsername()));
+   public void userNameCheck() {
+        String name = "grzegorz8";
+        Assert.assertTrue(name.equals(userDAO.getUser(name).getUsername()));
     }
 
-    @Test
-    public void userEmailCheck(){
-        String email = "grzegorz@wp.pl";
-        Assert.assertTrue(email.equals(user.getEmail()));
-    }
 
-    @Test
-    public void userPasswordCheck(){
-        Assert.assertNotNull(user.getPassword());
-    }
 
 }
 
