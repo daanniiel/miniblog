@@ -89,7 +89,10 @@
 	    <artifactId>spring-webmvc</artifactId>
 	    <version>${springframework.version}</version>
 	</dependency>
+<<<<<<< HEAD
+=======
 
+>>>>>>> c0dc9f16270558dc23358b61c21207160b05417e
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
@@ -146,6 +149,13 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.10</version>
+          <configuration>
+            <useFile>false</useFile>
+          </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
