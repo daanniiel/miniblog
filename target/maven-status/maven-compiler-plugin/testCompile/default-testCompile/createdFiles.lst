@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 com\wwsis\miniblog\dao\TestFollowerDao.class
 com\wwsis\miniblog\dao\TestMessageDao.class
 com\wwsis\miniblog\dao\TestUserDao.class
+=======
+com/wwsis/miniblog/dao/TestFollowerDao.class
+com/wwsis/miniblog/dao/TestMessageDao.class
+com/wwsis/miniblog/dao/TestUserDao.class
+>>>>>>> c0dc9f16270558dc23358b61c21207160b05417e

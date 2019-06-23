@@ -2,11 +2,14 @@ package com.wwsis.miniblog.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="follower")
 public class Follower {
+
+    @Id
     @Column(name="follower_id")
    private int follower_id;
     @Column(name="followee_id")
@@ -14,7 +17,6 @@ public class Follower {
 
 
     public Follower() {
-        //konstruktor
     }
 
     public int getFollower_id() {

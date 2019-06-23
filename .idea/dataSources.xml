@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="jdbc:hsqldb:mem:." uuid="d1a4af98-7f1d-409a-9514-bc36f5c68faf">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:jdbc:hsqldb:mem:./testdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc:hsqldb:file:jdbc:hsqldb:hsql://localhost/testdb/" uuid="dc2ce6ad-8e14-4909-9dbc-8614d9a2b742">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:jdbc:hsqldb:hsql://localhost/testdb/</jdbc-url>
+    </data-source>
+  </component>
+</project>

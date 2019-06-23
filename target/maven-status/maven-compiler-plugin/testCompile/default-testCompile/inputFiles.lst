@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:\Users\voxu9\miniblog\src\test\java\com\wwsis\miniblog\dao\TestUserDao.java
 C:\Users\voxu9\miniblog\src\test\java\com\wwsis\miniblog\dao\TestFollowerDao.java
 C:\Users\voxu9\miniblog\src\test\java\com\wwsis\miniblog\dao\TestMessageDao.java
+=======
+/home/user/Desktop/miniblog/miniblog/src/test/java/com/wwsis/miniblog/dao/TestUserDao.java
+/home/user/Desktop/miniblog/miniblog/src/test/java/com/wwsis/miniblog/dao/TestFollowerDao.java
+/home/user/Desktop/miniblog/miniblog/src/test/java/com/wwsis/miniblog/dao/TestMessageDao.java
+>>>>>>> c0dc9f16270558dc23358b61c21207160b05417e
