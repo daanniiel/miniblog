@@ -89,10 +89,7 @@
 	    <artifactId>spring-webmvc</artifactId>
 	    <version>${springframework.version}</version>
 	</dependency>
-<<<<<<< HEAD
-=======
 
->>>>>>> c0dc9f16270558dc23358b61c21207160b05417e
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>

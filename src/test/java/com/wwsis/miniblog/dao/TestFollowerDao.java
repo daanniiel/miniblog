@@ -29,15 +29,13 @@ public class TestFollowerDao {
 
     }
     @Test
-    public void testAddFollower() {
-<<<<<<< HEAD
-    }
+    public void testAddFollower(){
 }
-=======
+
 //...
     }
 //. . .
   //      . . .
-}
 
->>>>>>> c0dc9f16270558dc23358b61c21207160b05417e
+
+

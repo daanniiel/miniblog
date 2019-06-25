@@ -3,7 +3,7 @@ import java.util.List;
 import com.wwsis.miniblog.model.*;
 
 
-public class miniblogService {
+public interface miniblogService {
 
 
 }
