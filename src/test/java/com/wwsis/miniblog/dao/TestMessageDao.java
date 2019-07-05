@@ -19,12 +19,23 @@ import com.wwsis.miniblog.model.Message;
 @Rollback(true)
 public class TestMessageDao {
     @Autowired
-    MessageDao wpisDao;
+    Message message=new Message();
     @Autowired
-    UserDao uzytkownikDao;
-
+    UserDao userDao;
     @Test
-    public void xxx() {
+    public void setUp() {
+        message.setContent("Mini wpis");
+        message.setPost_id(1);
+        message.setPoster_id(1);
+        message.setDate();
 
+        MessageDao.addMessage(message);
     }
-}
+    public void MessageCheck() {
+        String name = "Mini wpis";
+        Assert.assertTrue(name.equals(message.getContent(name).getUsername()));
+    }
+    }
+
+
+

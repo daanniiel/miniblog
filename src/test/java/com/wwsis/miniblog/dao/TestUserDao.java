@@ -13,6 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 import com.wwsis.miniblog.dao.UserDao;
 import com.wwsis.miniblog.model.User;
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations={"classpath:applicationContext-test.xml"})
 @Transactional

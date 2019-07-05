@@ -1,6 +1,7 @@
 package com.wwsis.miniblog.dao;
 
 
+import com.wwsis.miniblog.model.Follower;
 import com.wwsis.miniblog.model.User;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,7 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Rollback(true)
 public class TestFollowerDao {
     @Autowired
-    FollowerDao followerDAO;
+    Follower follower=new Follower();
     @Autowired
     UserDao userDAO;
     //śledzony
@@ -26,7 +27,10 @@ public class TestFollowerDao {
     User newFollower;
     @Before
     public void setUp() {
-
+        follower.getFollowee_id();
+        follower.getFollower_id();
+        follower.setFollowee_id();
+        follower.setFollower_id();
     }
     @Test
     public void testAddFollower(){
@@ -36,6 +40,7 @@ public class TestFollowerDao {
     }
 //. . .
   //      . . .
+
 
 
 
