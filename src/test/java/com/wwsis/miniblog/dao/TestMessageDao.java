@@ -1,9 +1,12 @@
 package com.wwsis.miniblog.dao;
-
+ 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import java.util.Date;
 import java.util.List;
+ 
+import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,23 +22,33 @@ import com.wwsis.miniblog.model.Message;
 @Rollback(true)
 public class TestMessageDao {
     @Autowired
-    Message message=new Message();
-    @Autowired
-    UserDao userDao;
-    @Test
+    MessageDao messageDao;
+    Message message = new Message();
+ 
+    @Before
     public void setUp() {
         message.setContent("Mini wpis");
-        message.setPost_id(1);
-        message.setPoster_id(1);
-        message.setDate();
-
-        MessageDao.addMessage(message);
+        message.setPoster_id(200);
+ 
+ 
+        messageDao.addMessage(message);
     }
+    @Test
     public void MessageCheck() {
-        String name = "Mini wpis";
-        Assert.assertTrue(name.equals(message.getContent(name).getUsername()));
+        User user = new User();
+        user.setUser_id(200);
+ 
+ 
+        Assert.assertTrue(message.getContent().equals(messageDao.getUserMessages(user).get(0).getContent()));
+ 
     }
+ 
+    @Test
+    public void PosterCheck(){
+ 
+ 
+ 
     }
-
-
-
+ 
+   
+    }
