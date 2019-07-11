@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 @Rollback(true)
 public class TestFollowerDao {
-    @Autowired
+
     Follower follower=new Follower();
     @Autowired
     UserDao userDAO;
@@ -27,19 +27,14 @@ public class TestFollowerDao {
     User newFollower;
     @Before
     public void setUp() {
-        follower.getFollowee_id();
-        follower.getFollower_id();
-        follower.setFollowee_id();
-        follower.setFollower_id();
+
     }
     @Test
     public void testAddFollower(){
 }
 
-//...
     }
-//. . .
-  //      . . .
+
 
 
 

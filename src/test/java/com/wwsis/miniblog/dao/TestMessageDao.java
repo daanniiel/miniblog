@@ -1,5 +1,5 @@
 package com.wwsis.miniblog.dao;
-
+ 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import java.util.Date;
@@ -25,6 +25,8 @@ public class TestMessageDao {
     MessageDao messageDao;
     Message message = new Message();
 
+ 
+
     @Before
     public void setUp() {
         message.setContent("Mini wpis");
@@ -39,19 +41,11 @@ public class TestMessageDao {
         user.setUser_id(200);
 
 
+
         Assert.assertTrue(message.getContent().equals(messageDao.getUserMessages(user).get(0).getContent()));
 
     }
 
-    @Test
-    public void PosterCheck(){
-
-
+ 
 
     }
-
-
-    }
-
-
-

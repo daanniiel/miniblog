@@ -36,15 +36,16 @@ public class TestUserDao {
         String name = "grzegorz8";
         Assert.assertTrue(user.getUsername().equals(userDAO.getUser(name).getUsername()));
     }
-    @Test
-    public void userEmailCheck(){
-        String name = "grzegorz8";
-        Assert.assertTrue(user.getEmail().equals(userDAO.getUser(name).getEmail()));
-    }
+
     @Test
     public void userPasswordCheck(){
         String name = "grzegorz8";
         Assert.assertTrue(user.getPassword().equals(userDAO.getUser(name).getPassword()));
+    }
+    @Test
+    public void userEmailCheck(){
+        String name = "grzegorz8";
+        Assert.assertTrue(user.getEmail().equals(userDAO.getUser(name).getEmail()));
     }
 
 
