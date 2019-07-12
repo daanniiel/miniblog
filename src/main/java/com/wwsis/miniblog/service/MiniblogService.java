@@ -3,7 +3,7 @@ import java.util.List;
 import com.wwsis.miniblog.model.*;
 
 
-public interface miniblogService {
+public interface MiniblogService {
 
     public void follow(User follower, User followee);
 

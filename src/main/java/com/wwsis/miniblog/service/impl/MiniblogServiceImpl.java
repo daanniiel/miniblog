@@ -6,13 +6,12 @@ import org.springframework.stereotype.Service;
 import com.wwsis.miniblog.dao.FollowerDao;
 import com.wwsis.miniblog.dao.MessageDao;
 import com.wwsis.miniblog.dao.UserDao;
-import com.wwsis.miniblog.model.Follower;
 import com.wwsis.miniblog.model.Message;
 import com.wwsis.miniblog.model.User;
-import com.wwsis.miniblog.service.miniblogService;
+import com.wwsis.miniblog.service.MiniblogService;
 
 @Service
-public class miniblogServiceImpl implements miniblogService{
+public class MiniblogServiceImpl implements MiniblogService {
 
     @Autowired
     MessageDao messageDao;

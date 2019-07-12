@@ -28,7 +28,7 @@
 </bean>
 
 
-    <tx:annotation-driven/>
+
     <bean id="entityManagerFactoryBean"
           class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="dataSource" />
@@ -53,7 +53,16 @@
 
     <bean id = "MessageDao" class = "com.wwsis.miniblog.dao.impl.MessageDaoImpl"/>
     <bean id = "UserDao" class = "com.wwsis.miniblog.dao.impl.UserDaoImpl"/>
-    <bean id = "FollowerDao" class="com.wwsis.miniblog.dao.impl.UserDaoImpl"/>
+    <bean id = "FollowerDao" class="com.wwsis.miniblog.dao.impl.FollowerDaoImpl"/>
+
+    <bean id="MiniblogService" class="com.wwsis.miniblog.service.impl.MiniblogServiceImpl"/>
+
+    <bean id="miniblogController" class="com.wwsis.miniblog.controller.MiniblogController"/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/view/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
 
 
         </beans>
